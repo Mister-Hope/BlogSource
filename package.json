@@ -6,34 +6,32 @@
   "type": "module",
   "scripts": {
     "build": "vuepress-vite build src",
-    "dev": "vuepress-vite dev src --clean-cache",
-    "update-package": "pnpm dlx vp-update",
-    "sync": "./_shell/GitSync.sh",
     "deploy": "./_shell/Deploy.sh",
+    "dev": "vuepress-vite dev src --clean-cache",
     "open": "./_shell/Open.sh",
+    "sync": "./_shell/GitSync.sh",
+    "update-package": "pnpm dlx vp-update",
     "weekly": "node ./_shell/weekly.js"
-  },
-  "devDependencies": {
-    "@vuepress/bundler-vite": "2.0.0-rc.9",
-    "@vuepress/plugin-pwa": "2.0.0-rc.26",
-    "vue": "^3.4.25",
-    "vuepress": "2.0.0-rc.9",
-    "vuepress-theme-hope": "2.0.0-rc.37"
   },
   "dependencies": {
     "@vue/repl": "^4.1.2",
+    "@vuepress/bundler-vite": "2.0.0-rc.9",
     "@vuepress/plugin-feed": "2.0.0-rc.26",
+    "@vuepress/plugin-pwa": "2.0.0-rc.26",
     "@waline/client": "^3.1.3",
     "aplayer": "^1.10.1",
     "art-template": "^4.13.2",
     "axios": "^1.6.8",
     "chart.js": "^4.4.2",
-    "dayjs": "^1.11.10",
+    "dayjs": "^1.11.11",
     "echarts": "^5.5.0",
     "flowchart.ts": "^3.0.0",
     "reveal.js": "^5.1.0",
     "store": "^2.0.12",
+    "vue": "^3.4.26",
     "vue-router": "^4.3.2",
-    "vuepress-plugin-search-pro": "2.0.0-rc.37"
+    "vuepress": "2.0.0-rc.9",
+    "vuepress-plugin-search-pro": "2.0.0-rc.38",
+    "vuepress-theme-hope": "2.0.0-rc.38"
   }
 }
